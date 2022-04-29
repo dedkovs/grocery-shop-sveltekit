@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+
+	background-color: var(--theme-background);
+	color: var(--theme-text);
+	transition: background-color 0.3s;
+}
+
+.mdc-menu-surface {
+	background-color: var(--theme-menuBackground1) !important;
+}
+
+.mdc-menu .mdc-deprecated-list {
+	color: var(--theme-menuColor1) !important;
+}
+
+.mdc-select__menu .mdc-deprecated-list .mdc-deprecated-list-item--selected,
+.mdc-select__menu .mdc-deprecated-list .mdc-deprecated-list-item--activated,
+.mdc-select__menu .mdc-list .mdc-deprecated-list-item--selected,
+.mdc-select__menu .mdc-list .mdc-deprecated-list-item--activated {
+	color: var(--theme-menuSelectedColor1) !important;
+}
